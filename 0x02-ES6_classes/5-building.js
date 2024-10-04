@@ -8,3 +8,9 @@ export default Building {
   get sqft() {
     return this._sqft;
   }
+
+  set sqrt(sq) {
+}
+
+
+  }
