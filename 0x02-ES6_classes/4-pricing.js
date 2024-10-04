@@ -18,7 +18,6 @@ export default class Pricing {
     return this._currency;
   }
 
-
   set currency(value) {
     this.currency = value;
   }
@@ -30,5 +29,4 @@ export default class Pricing {
   static convertPrice(amount, conversionRate) {
     return amount * conversionRate;
   }
-
 }
