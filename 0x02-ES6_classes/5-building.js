@@ -10,7 +10,7 @@ export default class Building {
     return this._sqft;
   }
 
-  set sqrt(sq) {
+  set sqft(sq) {
    this._sqft = sq;
   }
 }
