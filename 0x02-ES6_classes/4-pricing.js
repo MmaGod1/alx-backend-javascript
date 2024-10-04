@@ -20,7 +20,6 @@ export default class Pricing {
 
 
   set currency(value) {
-
     this.currency = value;
   }
 
