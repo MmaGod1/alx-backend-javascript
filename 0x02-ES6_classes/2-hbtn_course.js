@@ -39,9 +39,9 @@ export default class HolbertonCourse {
 		return this._students;
 	}
 
-	set students(student) {
+	set students(val) {
 		if (!Array.isArray(students))
 			throw new TypeError('students must be an array');
-		this._students = student;
+		this._students = val;
 	}
 }
