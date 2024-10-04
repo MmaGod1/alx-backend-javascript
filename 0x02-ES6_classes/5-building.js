@@ -10,7 +10,6 @@ export default Building {
   }
 
   set sqrt(sq) {
-}
-
-
+    this._sqrt = sq;
   }
+}
