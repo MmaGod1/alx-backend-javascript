@@ -3,7 +3,7 @@ export default function cleanSet(set, startString) {
   let result = '';
   for (const value of set) {
     if (value.startsWith(startString)) {
-      result += ${value.slice(startString.length)}-;
+      result += `${value.slice(startString.length)}-`;
     }
   }
   return result ? result.slice(0, -1) : '';
