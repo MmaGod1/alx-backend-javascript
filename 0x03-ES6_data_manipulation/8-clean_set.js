@@ -6,5 +6,5 @@ export default function cleanSet(set, startString) {
       result += `${value.slice(startString.length)}-`;
     }
   }
-  return result;
+  return result ? result.slice(0, -1) : '';
 }
